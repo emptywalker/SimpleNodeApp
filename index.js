@@ -10,5 +10,7 @@ handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 handle["/postRequest"] = requestHandlers.postRequest;
-
+handle["/selectFile"] = requestHandlers.selectFile;
+handle["/uploadFile"] = requestHandlers.uploadFile;
+handle["/show"] = requestHandlers.show;
 server.start(router.route, handle);
