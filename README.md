@@ -4,7 +4,8 @@
 1. 本地安装node.js环境
 2. clone代码到本地
 3. terminal中，在本项目的根目录中运行 node index.js
-4. 在浏览器输入 `http://localhost:8888/selectFile`  
+4. 在浏览器输入 `http://localhost:8888/selectFile`   
+
 到这里就可以看到实际效果了，一个简单的选取一张本地的图片，点击upload file按钮时，保存到本地`/tmp.test.png`中，并显示这张图片
 
 ---
